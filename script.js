@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     text.addEventListener("mouseenter", () => {
-        hoverActive = true;
+        hoverActive = false;
         applyHoverEffects();
     });
 
